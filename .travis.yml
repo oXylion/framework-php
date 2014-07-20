@@ -8,4 +8,5 @@ php:
 
 before_script:
   - composer self-update
+  - composer create-project
   - composer install -n
