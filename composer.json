@@ -1,0 +1,41 @@
+{
+    "name": "oxylion/framework-php",
+    "description": "the PHP project Application framework.",
+    "license": "MIT",
+    "type": "project",
+    "homepage": "https://github.com/oXylion/framework-php",
+    "keywords": [ "codev_php", "codev_pro", "codev_app" ],
+    "authors": [
+        {
+            "name": "sharpix",
+            "email": "modern.codev@gmail.com",
+            "role": "lead"
+        }
+
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-dom": "*",
+        "ext-json": "*",
+        "ext-spl": "*",
+        "ext-pdo": "*",
+        "mustangostang/spyc": "0.5.1",
+        "symfony/yaml": "2.5.2"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "app-dir": "app",
+        "web-dir": "web",
+        "branch-alias": {
+            "master": "scarlet-berry"
+        }
+    }
+}
