@@ -1,8 +1,8 @@
+boost.php
 composer.phar
 
 .idea/
 app/cache/
 app/logs/
 bin/
-apptest/
 vendor/
