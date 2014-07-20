@@ -1,7 +1,8 @@
 boost.php
+composer.lock
 composer.phar
 
-.idea/
+.idea/*
 app/cache/
 app/logs/
 bin/
