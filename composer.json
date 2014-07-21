@@ -1,10 +1,14 @@
 {
+    "type": "project",
     "name": "oxylion/framework-php",
     "description": "the PHP project Application framework.",
     "license": "MIT",
-    "type": "project",
     "homepage": "https://github.com/oXylion/framework-php",
-    "keywords": [ "codev_php", "codev_pro", "codev_app" ],
+    "keywords": [ "framework", "codev", "project", "oxylion" ],
+    "support": {
+        "issues": "https://github.com/oxylion/cakephp/issues",
+        "source": "https://github.com/cakephp/cakephp"
+    },
     "authors": [
         {
             "name": "sharpix",
@@ -13,30 +17,46 @@
         }
 
     ],
+
+    "config": {
+        "bin-dir": "bin",
+        "app-dir": "app",
+        "web-dir": "web"
+    },
+
     "require": {
         "php": ">=5.3.3",
         "ext-dom": "*",
-        "ext-json": "*",
         "ext-spl": "*",
         "ext-pdo": "*",
-        "mustangostang/spyc": "0.5.*",
-        "symfony/yaml": "2.5.*",
-        "twig/twig": "1.*"
+        "ext-json": "*",
+        "ext-mcrypt": "*",
+        "ext-mbstring": "*",
+        "nesbot/Carbon": "1.8.*",
+        "symfony/yaml": "2.*",
+        "twig/twig": "1.16.*"
     },
+
+    "require-dev": {
+        "phpunit/phpunit": "3.7.33"
+    },
+
 
     "autoload": {
         "psr-0": {
             "": "src/"
         }
     },
-    "config": {
-        "bin-dir": "bin"
+
+    "autoload-dev": {
     },
+
+    "target-dir": "../../web",
+    "minimum-stability": "dev",
     "extra": {
-        "app-dir": "app",
-        "web-dir": "web",
         "branch-alias": {
-            "master": "scarlet-berry"
+            "dev-master": "1.7"
         }
     }
+
 }
