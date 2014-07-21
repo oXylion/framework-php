@@ -32,11 +32,10 @@
         "ext-json": "*",
         "ext-mcrypt": "*",
         "ext-mbstring": "*",
-        "nesbot/Carbon": "1.8.*",
         "symfony/yaml": "2.*",
-        "twig/twig": "1.16.*"
+        "twig/twig": "1.16.*",
+        "nesbot/Carbon": "1.8.*"
     },
-
     "require-dev": {
         "phpunit/phpunit": "3.7.33"
     },
@@ -47,12 +46,9 @@
             "": "src/"
         }
     },
-
     "autoload-dev": {
     },
 
-    "target-dir": "../../web",
-    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "1.7"
