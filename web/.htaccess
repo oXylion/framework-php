@@ -10,10 +10,9 @@ DirectoryIndex app.php
     RewriteCond %{ENV:REDIRECT_STATUS} ^$
     RewriteRule ^app\.php(/(.*)|$) %{ENV:BASE}/$2 [R=301,L]
 
-    RewriteCond $1 !^(app\.php|robots\.txt|\.htaccess)
-
     # If the requested filename exists, simply serve it.
     # We only want to let Apache serve files and not directories.
+    RewriteCond $1 !^(app\.php|robots\.txt)
     RewriteCond %{REQUEST_FILENAME} -f
     RewriteRule .? - [L]
 
