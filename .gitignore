@@ -1,4 +1,6 @@
-.htaccess
+
+*.htaccess
+
 boost.php
 composer.lock
 composer.phar
