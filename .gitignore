@@ -1,6 +1,7 @@
 
 *.htaccess
 
+.note
 boost.php
 composer.lock
 composer.phar
