@@ -1,0 +1,11 @@
+# PROJECT_NOTE:
+=============== 
+
+  -default front-controllers:
+    app.php       - Production
+    app_dev.php   - Development
+    app_init.php  - InfPoolData 
+    app_test.php  - Unit Test
+    app_boost.php - Setup
+
+  
