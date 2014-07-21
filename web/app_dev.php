@@ -1,13 +1,15 @@
 <?php
-/**
- * This file is part of the PHPCodev package
- *                      created at: 21.07.14
- *
- * Copyright (c) oXylion 2014
- *     sharpix  <modern.codev@gmail.com>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
 
-print "hello world!";
+// - App mod development, enable display all errors
+error_reporting(E_ALL);
+ini_set('display_error', 'On');
+
+// - Register use namespace
+use \BoostFactor\ActionDummy;
+
+// - Service autoloader  with boostrap module register.
+$loader = require_once( dirname( __DIR__ ) . '\app' . '\bootstrap.php' );
+
+
+
+// file end line
