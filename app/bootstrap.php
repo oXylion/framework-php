@@ -1,9 +1,9 @@
 <?php
 
-// bootstrap.php @dummy app ClassLoader
+// app/bootstrap.php @dummy app ClassLoader
 namespace { $loader = require_once( __DIR__ . '/autoload.php' ); }
 
-// boost args space
+// - bootstrap code blocks
 namespace BoostFactor\ActionDummy {
 } // BoostFactor\ActionDummy;
 

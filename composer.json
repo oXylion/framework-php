@@ -19,8 +19,9 @@
         "ext-json": "*",
         "ext-spl": "*",
         "ext-pdo": "*",
-        "mustangostang/spyc": "0.5.1",
-        "symfony/yaml": "2.5.2"
+        "mustangostang/spyc": "0.5.*",
+        "symfony/yaml": "2.5.*",
+        "twig/twig": "1.*"
     },
 
     "autoload": {
