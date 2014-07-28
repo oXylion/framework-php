@@ -19,8 +19,8 @@
     ],
 
     "config": {
-        "bin-dir": "bin",
         "app-dir": "app",
+        "bin-dir": "bin",
         "web-dir": "web"
     },
 
@@ -33,11 +33,12 @@
         "ext-mcrypt": "*",
         "ext-mbstring": "*",
         "symfony/yaml": "2.*",
-        "twig/twig": "1.16.*",
-        "nesbot/Carbon": "1.8.*"
+        "twig/twig": "1.16.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.33"
+        "phpunit/phpunit": "3.7.33",
+        "twig/twig2": "2.0-dev",
+        "nesbot/Carbon": "1.8.*"
     },
 
 

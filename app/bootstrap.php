@@ -7,6 +7,6 @@ namespace { $loader = require_once( __DIR__ . '/autoload.php' ); }
 namespace BoostFactor\ActionDummy {
 } // BoostFactor\ActionDummy;
 
-namespace { return $loader; }
+namespace { global $loader; return $loader; }
 
 // file end line
