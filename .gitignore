@@ -4,10 +4,10 @@
 .note
 boost.php
 composer.lock
-composer.phar
 
 .idea/*
 app/cache/
 app/logs/
 bin/
+master/
 vendor/

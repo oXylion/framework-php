@@ -27,17 +27,15 @@
     "require": {
         "php": ">=5.3.3",
         "ext-dom": "*",
-        "ext-spl": "*",
         "ext-pdo": "*",
+        "ext-spl": "*",
         "ext-json": "*",
-        "ext-mcrypt": "*",
-        "ext-mbstring": "*",
         "symfony/yaml": "2.*",
         "twig/twig": "1.16.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "3.7.33",
         "twig/twig2": "2.0-dev",
+        "phpunit/phpunit": "3.7.33",
         "nesbot/Carbon": "1.8.*"
     },
 
