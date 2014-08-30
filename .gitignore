@@ -1,8 +1,13 @@
-boost.php
-composer.phar
 
-.idea/
+*.htaccess
+
+.note
+boost.php
+composer.lock
+
+.idea/*
 app/cache/
 app/logs/
 bin/
+master/
 vendor/

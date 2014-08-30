@@ -1,0 +1,57 @@
+{
+    "type": "project",
+    "name": "oxylion/framework-php",
+    "description": "the PHP project Application framework.",
+    "license": "MIT",
+    "homepage": "https://github.com/oXylion/framework-php",
+    "keywords": [ "framework", "codev", "project", "oxylion" ],
+    "support": {
+        "issues": "https://github.com/oxylion/cakephp/issues",
+        "source": "https://github.com/cakephp/cakephp"
+    },
+    "authors": [
+        {
+            "name": "sharpix",
+            "email": "modern.codev@gmail.com",
+            "role": "lead"
+        }
+
+    ],
+
+    "config": {
+        "app-dir": "app",
+        "bin-dir": "bin",
+        "web-dir": "web"
+    },
+
+    "require": {
+        "php": ">=5.3.3",
+        "ext-dom": "*",
+        "ext-pdo": "*",
+        "ext-spl": "*",
+        "ext-json": "*",
+        "symfony/yaml": "2.*",
+        "twig/twig": "1.16.*"
+    },
+    "require-dev": {
+        "twig/twig2": "2.0-dev",
+        "phpunit/phpunit": "3.7.33",
+        "nesbot/Carbon": "1.8.*"
+    },
+
+
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.7"
+        }
+    }
+
+}
